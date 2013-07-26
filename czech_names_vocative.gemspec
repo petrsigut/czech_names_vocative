@@ -4,8 +4,8 @@ require File.expand_path('../lib/czech_names_vocative/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Petr Sigut"]
   gem.email         = ["petr@sigut.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Vocative for Czech names}
+  gem.summary       = %q{Simply returning vocative for first names used in Czech Republic}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
