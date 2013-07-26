@@ -1,6 +1,6 @@
 # CzechNamesVocative
 
-TODO: Write a gem description
+Simply returning vocative for first names used in Czech Republic
 
 ## Installation
 

@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require "czech_names_vocative/version"
 
 module CzechNamesVocative

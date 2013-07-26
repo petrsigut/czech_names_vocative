@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["petr@sigut.net"]
   gem.description   = %q{Vocative for Czech names}
   gem.summary       = %q{Simply returning vocative for first names used in Czech Republic}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/petrsigut/czech_names_vocative"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
