@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+<%= CzechNamesVocative.do(first_name) %>
+
+## Database
+
+Thanks for database to validace.cz
+http://blog.trixi.cz/2012/08/5-pady-vsech-jmen-osob-v-cr-volne-ke-stazeni/
 
 ## Contributing
 
