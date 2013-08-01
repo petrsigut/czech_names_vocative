@@ -6,7 +6,9 @@ Simply returning vocative for first names used in Czech Republic
 
 Add this line to your application's Gemfile:
 
-    gem 'czech_names_vocative'
+```ruby
+gem 'czech_names_vocative'
+```
 
 And then execute:
 
@@ -18,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-<%= CzechNamesVocative.do(first_name) %>
+```ruby
+CzechNamesVocative.do("Josef") #=> "Josefe"
+```
 
 ## Database
 
