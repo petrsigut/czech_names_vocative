@@ -22,6 +22,7 @@ Or install it yourself as:
 
 ```ruby
 "Josef".vocative #=> "Josefe"
+"Petr".vocative #=> "Petře"
 ```
 
 ## Database
