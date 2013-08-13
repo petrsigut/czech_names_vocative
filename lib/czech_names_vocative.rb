@@ -3,8 +3,7 @@
 require "czech_names_vocative/version"
 
 module CzechNamesVocative
-  def self.do(name)
-  	names = {
+  NAMES = {
 	"Marie"=>"Marie",
 	"Jana"=>"Jano",
 	"Eva"=>"Evo",
@@ -35344,6 +35343,12 @@ module CzechNamesVocative
 	"Žolty"=>"Žolty",
 	"Žora"=>"Žoro",
 	"Žydrius"=>"Žydrie"}
-    return names[name]
+  
+  def vocative
+    return NAMES[self]
   end
+end
+
+class String
+  include CzechNamesVocative
 end

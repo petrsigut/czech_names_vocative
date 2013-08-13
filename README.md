@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-CzechNamesVocative.do("Josef") #=> "Josefe"
+"Josef".vocative #=> "Josefe"
 ```
 
 ## Database
