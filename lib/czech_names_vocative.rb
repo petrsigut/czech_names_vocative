@@ -35343,9 +35343,13 @@ module CzechNamesVocative
 	"Žolty"=>"Žolty",
 	"Žora"=>"Žoro",
 	"Žydrius"=>"Žydrie"}
-  
+
   def vocative
     return NAMES[self]
+  end
+
+  def vocative!
+  	return(NAMES[self] or self)
   end
 end
 

@@ -8,6 +8,7 @@ class CzechNamesVocativeTest < Test::Unit::TestCase
     assert_equal "Petře", "Petr".vocative
     assert_equal "Josefe", "Josef".vocative
     assert_not_equal "Veronika", "Veronika".vocative
+    assert_equal "Petře", "Petr".vocative!
+    assert_equal "NONAME", "NONAME".vocative!
   end
-
 end
