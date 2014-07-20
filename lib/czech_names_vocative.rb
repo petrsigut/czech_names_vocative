@@ -22211,7 +22211,6 @@ module CzechNamesVocative
 	"Časlav"=>"Časlave",
 	"Čedomír"=>"Čedomíre",
 	"Daehee"=>"Daehee",
-	"Dagmar"=>"Dagmare",
 	"Daiki"=>"Daiki",
 	"Dako"=>"Dako",
 	"Daler"=>"Dalere",

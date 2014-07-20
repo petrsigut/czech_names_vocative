@@ -30,6 +30,10 @@ Or install it yourself as:
 "NonExistingName".vocative! #=> "NonExistingName"
 ```
 
+## Known limitations
+
+There can be names which have different vocative for female and male variant (e.g. [Dagmar](http://krestni-jmena.cz/vyznam/index.php?name=Dagmar)), gem will simply returns the last one in db.
+
 ## Database
 
 Thanks for database to validace.cz
