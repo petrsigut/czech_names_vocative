@@ -35349,7 +35349,7 @@ module CzechNamesVocative
   end
 
   def vocative!
-  	return(NAMES[self] or self)
+  	return NAMES[self] || self
   end
 end
 
