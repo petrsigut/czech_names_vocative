@@ -23,7 +23,7 @@ Or install it yourself as:
 ```ruby
 "Josef".vocative #=> "Josefe"
 "Petr".vocative #=> "Petře"
-"NonExistingName".vocativ! #=> nil
+"NonExistingName".vocative! #=> nil
 
 "Josef".vocative! #=> "Josefe"
 "Petr".vocative! #=> "Petře"
