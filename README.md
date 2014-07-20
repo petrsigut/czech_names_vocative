@@ -23,6 +23,11 @@ Or install it yourself as:
 ```ruby
 "Josef".vocative #=> "Josefe"
 "Petr".vocative #=> "Petře"
+"NonExistingName".vocativ! #=> nil
+
+"Josef".vocative! #=> "Josefe"
+"Petr".vocative! #=> "Petře"
+"NonExistingName".vocative! #=> "NonExistingName"
 ```
 
 ## Database
